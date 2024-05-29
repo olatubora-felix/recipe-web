@@ -1,0 +1,13 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.banner {
+  background: url('./assets/images/banner1.png');
+  background-size: cover;
+  background-position: center;
+  height: 355px;
+}
